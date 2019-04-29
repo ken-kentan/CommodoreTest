@@ -1,0 +1,13 @@
+name: CommodoreTest
+main: jp.kentan.example.commodore_test.CommodoreTestPlugin
+version: 1.0-SNAPSHOT
+author: ken_kentan
+website: http://ken.kentan.jp
+
+commands:
+    mycommand:
+        description: commodore test
+        usage: /<command> test
+        default: true
+        permission: commodoretest
+        permission-message: You don't have <permission>
